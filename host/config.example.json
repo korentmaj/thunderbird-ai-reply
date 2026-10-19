@@ -1,0 +1,9 @@
+{
+  "claude": "claude",
+  "styleFile": "",
+  "contextDir": "",
+  "mcpConfig": "",
+  "quickModel": "sonnet",
+  "deepModel": "opus",
+  "timeoutMinutes": 6
+}

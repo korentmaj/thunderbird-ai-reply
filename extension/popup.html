@@ -1,0 +1,12 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+  body { font: 13px system-ui, sans-serif; width: 280px; margin: 10px; }
+  textarea { width: 100%; box-sizing: border-box; height: 60px; margin-bottom: 8px; }
+  button { width: 100%; padding: 7px; margin-bottom: 6px; cursor: pointer; text-align: left; }
+  small { color: #666; display: block; }
+</style>
+<textarea id="ins" placeholder="Instruction (optional), e.g. say yes, Thursday at 3pm"></textarea>
+<button data-mode="quick">Quick reply<small>Fast model, uses only this mail</small></button>
+<button data-mode="deep">Deep reply<small>Stronger model, reads earlier mails and your notes</small></button>
+<script src="popup.js"></script>
