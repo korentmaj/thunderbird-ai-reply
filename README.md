@@ -1,5 +1,7 @@
 # AI reply for Thunderbird
 
+![AI reply drafting an answer in Thunderbird](docs/demo.gif)
+
 A Thunderbird button that drafts a reply to the open mail with [Claude Code](https://docs.claude.com/en/docs/claude-code) running on your own machine. The reply window opens right away and the text streams in while the model writes, so you can keep working.
 
 It is for people who answer a lot of mail and want a first draft that already sounds like them. You open a mail, click the button, and edit instead of starting from a blank window. Nothing is ever sent. You read the draft, fix it and press Send yourself.
